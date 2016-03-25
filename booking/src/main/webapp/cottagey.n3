@@ -1,0 +1,71 @@
+@prefix jyu: <http://localhost:8080/booking/cottagey.rdf#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+jyu:alebuaCottage a jyu:cottage ;
+  jyu:allowPeople "10"^^xsd:int ;
+  jyu:cityNearBy "Jyvaskyla"^^xsd:string ;
+  jyu:distanceToLake "3"^^xsd:int ;
+  jyu:hasAddress "Kirkkotie, Jyvaskyla"^^xsd:string ;
+  jyu:hasImage "http://s20.postimg.org/z3mc9p6k9/Cottage1.jpg"^^xsd:string ;
+  jyu:hasName "ableCottage"^^xsd:string ;
+  jyu:hasRoom "2"^^xsd:int ;
+  jyu:startDate "2016-03-18"^^xsd:date ;
+  jyu:endDate "2016-03-21"^^xsd:date .
+
+jyu:RonimaCottage a jyu:cottage ;
+  jyu:allowPeople "12"^^xsd:int ;
+  jyu:cityNearBy "Jyvaskyla"^^xsd:string ;
+  jyu:distanceToLake "2"^^xsd:int ;
+  jyu:hasAddress "Ronimaki,Jyvaskyla"^^xsd:string ;
+  jyu:hasImage "http://s20.postimg.org/sr76zv3i1/Cottage2.jpg"^^xsd:string ;
+  jyu:hasName "lebuaCottage"^^xsd:string ;
+  jyu:hasRoom "3"^^xsd:int ;
+  jyu:startDate "2016-03-21"^^xsd:date ;
+  jyu:endDate "2016-03-24"^^xsd:date .
+  
+  jyu:VaaaCottage a jyu:cottage ;
+  jyu:allowPeople "12"^^xsd:int ;
+  jyu:cityNearBy "Jyvaskyla"^^xsd:string ;
+  jyu:distanceToLake "2"^^xsd:int ;
+  jyu:hasAddress "centrel part,Jyvaskyla"^^xsd:string ;
+  jyu:hasImage "http://s20.postimg.org/sr76zv3i1/Cottage2.jpg"^^xsd:string ;
+  jyu:hasName "lebuaCottage"^^xsd:string ;
+  jyu:hasRoom "3"^^xsd:int ;
+  jyu:startDate "2016-03-17"^^xsd:date ;
+  jyu:endDate "2016-03-20"^^xsd:date .
+
+jyu:springCottage a jyu:cottage ;
+  jyu:allowPeople "7"^^xsd:int ;
+  jyu:cityNearBy "Kuopio"^^xsd:string ;
+  jyu:distanceToLake "4"^^xsd:int ;
+  jyu:hasAddress "Jantotie,Kuopio"^^xsd:string ;
+  jyu:hasImage "http://s20.postimg.org/x7uykssc9/Cottage3.jpg"^^xsd:string ;
+  jyu:hasName "springCottage"^^xsd:string ;
+  jyu:hasRoom "2"^^xsd:int ;
+  jyu:startDate "2016-03-23"^^xsd:date ;
+  jyu:endDate "2016-03-24"^^xsd:date .
+
+jyu:sunnyCottage a jyu:cottage ;
+  jyu:allowPeople "6"^^xsd:int ;
+  jyu:cityNearBy "Kuopio"^^xsd:string ;
+  jyu:distanceToLake "4"^^xsd:int ;
+  jyu:hasAddress "Pahkakuja,Kuopio"^^xsd:string ;
+  jyu:hasImage "http://s20.postimg.org/8fvcdkb5l/Cottage4.jpg"^^xsd:string ;
+  jyu:hasName "sunnyCottage"^^xsd:string ;
+  jyu:hasRoom "2"^^xsd:int ;
+  jyu:startDate "2016-03-22"^^xsd:date ;
+  jyu:endDate "2016-03-25"^^xsd:date .
+
+jyu:yangCottage a jyu:cottage ;
+  jyu:allowPeople "15"^^xsd:int ;
+  jyu:cityNearBy "Helsinki"^^xsd:string ;
+  jyu:distanceToLake "4"^^xsd:int ;
+  jyu:hasAddress "Castréninkatu 2, Helsinki"^^xsd:string ;
+  jyu:hasImage "http://s20.postimg.org/5n24tjat5/Cottage5.jpg"^^xsd:string ;
+  jyu:hasName "yangCottage"^^xsd:string ;
+  jyu:hasRoom "4"^^xsd:int ;
+  jyu:startDate "2016-03-24"^^xsd:date ;
+  jyu:endDate "2016-03-29"^^xsd:date .
